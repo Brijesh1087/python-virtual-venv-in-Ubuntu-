@@ -1,0 +1,8 @@
+#install below package
+sudo apt-get install python3 pip3 virtualvenv python3.9-venv
+mkdir project_name
+cd project_name
+python3 -m venv project_env
+source app-env/bin/activate
+deactivate
+#install any lib or mudule use pip
